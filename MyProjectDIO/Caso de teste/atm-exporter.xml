@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>SWAG</projectKey>
+    <exportDate>2023-10-16 16:54:42 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="104780098" key="SWAG-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>isaias sousa</createdBy>
+            <createdOn>2023-10-16 16:30:10 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels>
+                <label><![CDATA[web]]></label>
+                <label><![CDATA[teste]]></label>
+                <label><![CDATA[login]]></label>
+            </labels>
+            <name><![CDATA[Testes funcionais]]></name>
+            <objective><![CDATA[Resolver um bug do login]]></objective>
+            <owner>712020:5735b091-c881-4ce7-9dd2-bd6a55a30bd2</owner>
+            <precondition><![CDATA[<br><br>]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="104780478" key="SWAG-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>isaias sousa</createdBy>
+            <createdOn>2023-10-16 16:38:52 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente não consegue acessar o sistema]]></name>
+            <objective><![CDATA[verificar funcionalidade de login]]></objective>
+            <owner>712020:5735b091-c881-4ce7-9dd2-bd6a55a30bd2</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar o sistema]]></description>
+                        <expectedResult><![CDATA[O Usu&aacute;rio deve poder ter acesso ao site<br><br>]]></expectedResult>
+                        <testData><![CDATA[Usu&aacute;rio : Client<br>Senha: Client]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[O usu&aacute;rio acessa o cat&aacute;logo]]></description>
+                        <expectedResult><![CDATA[Pode efetuar a compra]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
